@@ -7,7 +7,7 @@ The reference describing the test cases is: AIAA2017-3290
 
 "Motivations and methods of verification for high-order RANS solvers and solutions"
 
-Farshad Navah (farshad.navah@mail.mcgill.ca) ; Sivakumaran Nadarajah 
+Farshad Navah (farshad.navah@mail.mcgill.ca) ; Siva Nadarajah 
 
 McGill University
 
