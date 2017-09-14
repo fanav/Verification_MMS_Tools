@@ -1,8 +1,8 @@
 ## Verification_MMS_Tools
 This Repository provides tools for the verification of RANS-SA solvers via the method of manufactured solutions (MMS).
 
-#### -> Please Cite us upon utilization <-
 ---------------------------------------------
+#### -> Please Cite us upon utilization <-
 The reference describing the test cases is: AIAA2017-3290         
 
 "Motivations and methods of verification for high-order RANS solvers and solutions"
