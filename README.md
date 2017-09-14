@@ -4,9 +4,12 @@ This Repository provides tools for the verification of RANS-SA solvers via the m
 -> Please Cite us upon utilization <-
 ---------------------------------------------
 The reference describing the test cases is:
-AIAA2017-3290                 
+
+AIAA2017-3290         
+
 "Motivations and methods of verification for high-order RANS solvers and solutions"
 Farshad Navah (farshad.navah@mail.mcgill.ca) ; Sivakumaran Nadarajah, McGill University
+
 Read More: https://arc.aiaa.org/doi/abs/10.2514/6.2017-3290
 ---------------------------------------------
 
