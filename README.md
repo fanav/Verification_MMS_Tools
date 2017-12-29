@@ -1,22 +1,29 @@
 ## Verification MMS Tools
-This Repository provides tools for the verification of RANS-SA solvers via the method of manufactured solutions (MMS).
+This branch (FreeFlow_Euler/NS/RANS-SA) provides tools for the verification of Euler/NS/RANS-SA solvers via the method of manufactured solutions (MMS).
 
 ---------------------------------------------
 #### -> Please Cite us upon utilization <-
-The reference describing the test cases is: [AIAA2017-3290](AIAA2017-3290.pdf) (https://arc.aiaa.org/doi/abs/10.2514/6.2017-3290 )     
+The reference describing the test cases is: [arXiv:1712.09478](arXiv_1712.09478.pdf) (https://arxiv.org/abs/1712.09478)     
 
-"Motivations and methods of verification for high-order RANS solvers and solutions"
+"A comprehensive high-order solver verification methodology for free fluid flows"
 
 Farshad Navah (farshad.navah@mail.mcgill.ca) ; Siva Nadarajah 
 
 McGill University
 
 ---------------------------------------------
+### Description of cases:
+
+- MS-1: Free subsonic inviscid flow on Cartesian domain 
+- MS-2: Free supersonic inviscid flow on Curved domain
+- MS-3: Free laminar flow on Cartesian domain
+- MS-4: Free turbulent flow with RANS and the original Spalart-Allmaras turbulence model¹ on Cartesian domain / The same as MS-1 in the "FreeFlow_RANS-SA" branch
+- MS-5: Free turbulent flow with RANS and the modified Spalart-Allmaras turbulence model¹ on Cartesian domain / The same as MS-2 in the "FreeFlow_RANS-SA" branch
+
+¹Allmaras, S. R., Johnson, F. T., Spalart, P. R., "Modifications and Clarifications for the Implementation of the Spalart-Allmaras Turbulence Model". ICCFD7-1902.
 
 ### Description of files:
 
-- IPython3 notebook: allows to generate the manufactured solution fields as well as the forcing functions for the verification of the compressible RANS equations (2D) along with either the original (MS-1) or the modified (MS-2) portions of the Spalart-Allmaras turbulence model¹.
+- IPython3 notebook: allows to generate the manufactured solution fields as well as the forcing functions for each of the cases. For the above MSs, the resulting expressions are already injected in the .c file.
 
-- C routine: provides a structure for the implementation of the verification methodology of MMS in any (including high-order) CFD code. One call to the routine with proper identification tags for a given solution variable and one of its fields (U, dUdx, dUdy, etc. or FFU (forcing function of x-momentum)) allows to initiate a series of recursive calls to the same routine (and its sub-routines) until all the terms of the demanded field are computed and the answer is reported back to the calling instance. This allows for a facilitated and point-wise application of the verification methodology to the code. The calls are necessary for balancing the residuals, computing the boundary conditions and initializing the solution only.
-
-¹Allmaras, S. R., Johnson, F. T., Spalart, P. R., "Modifications and Clarifications for the Implementation of the Spalart-Allmaras Turbulence Model". ICCFD7-1902.
+- C routine: provides a structure for the implementation of the verification methodology of MMS in any (including high-order) CFD code. One call to the routine with proper identification tags for a given solution variable and one of its fields (U, dUdx, dUdy, etc. or FFU (forcing function of x-momentum)) allows to initiate a series of recursive calls to the same routine (and its sub-routines) until all the terms of the demanded field are computed and the answer is reported back to the calling instance. This allows for a facilitated and point-wise application of the verification methodology to the code. the structure of the code is designed to allow an optimal debugging experience. The calls are necessary for balancing the residuals, computing the boundary conditions and initializing the solution only.
