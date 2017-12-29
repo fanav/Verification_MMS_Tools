@@ -16,11 +16,13 @@ McGill University
 
 - MS-1: Wall-bounded inviscid flow on curved domain 
 - MS-2: Wall-bounded laminar flow on curved domain 
-- MS-3: Realistic boundary layer RANS-SA [1] verification case, Eça et al. (2007) [2]
-- MS-4: Realistic boundary layer RANS-SA [1] verification case, Oliver et al. (2012) [3]
+- MS-3: Realistic boundary layer RANS-SA [1] flow on Cartesian domain, Eça et al. (2007) [2]
+- MS-4: Realistic boundary layer RANS-SA [1] flow on Cartesian domain, Oliver et al. (2012) [3]
 
 [1] Allmaras, S. R., Johnson, F. T., Spalart, P. R., "Modifications and Clarifications for the Implementation of the Spalart-Allmaras Turbulence Model", ICCFD7-1902.
+
 [2] Eça, L. , Hoekstra, M., Hay, A., Pelletier, D., "Verification of RANS solvers with manufactured solutions", doi:10.1007/s00366-007-0067-9.
+
 [3] Oliver, T., Estacio-Hiroms, K., Malaya, N., Carey, G., "Manufactured Solutions for the Favre-Averaged Navier-Stokes Equations with Eddy-Viscosity Turbulence Models", doi:10.2514/6.2012-80, AIAA 2012-0080.
 
 ### Description of files:
