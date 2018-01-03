@@ -3,9 +3,9 @@ This branch provides tools for the verification of Euler/NS/RANS-SA solvers via 
 
 ---------------------------------------------
 #### -> Please Cite us upon utilization <-
-The reference describing the test cases is: Coming soon     
+The reference describing the test cases is: [arXiv:1801.00021](arXiv_1801.00021.pdf) (https://arxiv.org/abs/1801.00021)
 
-""
+"On the verification of CFD solvers of all orders of accuracy on curved wall-bounded domains and for realistic RANS flows"
 
 Farshad Navah (farshad.navah@mail.mcgill.ca) ; Siva Nadarajah 
 
