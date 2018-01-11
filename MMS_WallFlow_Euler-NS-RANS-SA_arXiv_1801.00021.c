@@ -190,7 +190,8 @@ double MS_1(int qnt_type, int qnt_id, double x, double y)
 */
   
 
-  
+// Do not change these values of model parameters, instead set the values in the solver to these.
+// This is important for correct verification as well as cross-solvers comparability.  
   const double Gamma   =  1.4;
 
 
@@ -587,6 +588,8 @@ double MS_2(int qnt_type, int qnt_id, double x, double y)
       
 */
 
+// Do not change these values of model parameters, instead set the values in the solver to these.
+// This is important for correct verification as well as cross-solvers comparability.
   const double Gamma   =  1.4;
   const double Pr      =  0.7;  
   const double mu      =  1e-5; 
@@ -1142,6 +1145,8 @@ double MS_3(int qnt_type, int qnt_id, double x, double y)
   const double a_rhoxy =  3.0; 
   const double L       =  1.0;  
 
+// Do not change these values of model parameters, instead set the values in the solver to these.
+// This is important for correct verification as well as cross-solvers comparability.
   const double Gamma   =  1.4;
   const double Pr      =  0.7;
   const double mu      =  1.e-6;  
@@ -1988,8 +1993,11 @@ double MS_4(int qnt_type, int qnt_id, double x, double y)
 */  
 
   
+// Do not change these values of model parameters, instead set the values in the solver to these.
+// This is important for correct verification as well as cross-solvers comparability.  
   const double Pr     = 0.7    ;
   const double mu     = 1e-4   ; // 2.67861904719577e-6; // for the non-dimensional version
+  const double Gamma  = 1.4    ;  
 
   const double C_cf   = 0.0270 ;
   const double eta_1  = 11.0   ;
@@ -1999,7 +2007,6 @@ double MS_4(int qnt_type, int qnt_id, double x, double y)
   const double T_inf  = 250.0  ; // 1.0    ;  // for the non-dimensional version
   const double M_inf  = 0.80   ;
   const double r_T    = 0.90   ;
-  const double Gamma  = 1.4    ;
   const double alpha  = 5.0    ; // 1.86663348236639e-2;  // for the non-dimensional version
    
   const double p0     = 1.0e4  ; // 1.0    ;  // for the non-dimensional version
