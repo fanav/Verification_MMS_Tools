@@ -224,6 +224,8 @@ double MS_1(int qnt_type, int qnt_id, double x, double y)
 
   const double L        =  1.0;
                         
+// Do not change these values of model parameters, instead set the values in the solver to these.
+// This is important for correct verification as well as cross-solvers comparability.                        
   const double Gamma    =  1.4;
   const double Pr       =  0.7;    
   const double mu       =  1e-3;
@@ -1019,7 +1021,9 @@ double MS_2(int qnt_type, int qnt_id, double x, double y)
   const double a_nusaxy =  3.0;   
                         
   const double L        =  1.0;
-                        
+
+// Do not change these values of model parameters, instead set the values in the solver to these.
+// This is important for correct verification as well as cross-solvers comparability.                        
   const double Gamma    =  1.4;
   const double Pr       =  0.7; 
   const double mu       =  1e-1;
