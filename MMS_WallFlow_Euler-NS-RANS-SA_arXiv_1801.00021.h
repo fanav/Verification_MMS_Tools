@@ -1,7 +1,6 @@
 #ifdef __cplusplus
 extern “C”
 #else
-extern
 #endif
 
 extern double  MS_qnt_2D(int MS_no, int qnt_type, int qnt_id, double x, double y);
