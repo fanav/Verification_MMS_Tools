@@ -1,10 +1,15 @@
+#ifdef __cplusplus
+extern “C”
+#else
+extern
+#endif
+
 extern double  MS_qnt_2D(int MS_no, int qnt_type, int qnt_id, double x, double y);
 
 // In order to reduce the risk of bug, use enum types instead of integers
-// to set the values of 'qnt_type' and 'qnt_id' arguments in calls to MS_qnt_2D
-#define USE_ENUM_TO_CALL_MS_qnt_2D 1 // set to 0 to desactivate
-
-#if USE_ENUM_TO_CALL_MS_qnt_2D==1
+// to set the values of 'qnt_type' and 'qnt_id' arguments in calls to MS_qnt_2D.
+// To deactivate enum definitions, use #define NO_ENUM_TO_CALL_MS_qnt_2D at a higher inclusion level.
+#ifndef NO_ENUM_TO_CALL_MS_qnt_2D
 //- The enum definition for quant type
 enum qnt_type {
 qt_Q           = 0 ,
