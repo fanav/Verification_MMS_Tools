@@ -19,13 +19,23 @@ const double piMS = 3.1415926535897932384626433832795;
 /* [2] https://arc.aiaa.org/doi/abs/10.2514/6.2017-3290                         */
 /*                                                                              */
 /* SOURCE: https://github.com/fanav/Verification_MMS_Tools                      */
-/* MS_1: the same as MS_1 in [1] and in branch FreeFlow_Euler/NS/RANS-SA        */
-/* MS_2: the same as MS_2 in [1] and in branch FreeFlow_Euler/NS/RANS-SA        */
-/* MS_3: the same as MS_3 in [1] and in branch FreeFlow_Euler/NS/RANS-SA        */
-/* MS_4: the same as MS_4 in [1] and in branch FreeFlow_Euler/NS/RANS-SA        */
-/*       the same as MS_1 in [2] and in branch FreeFlow_RANS-SA                 */
-/* MS_5: the same as MS_5 in [1] and in branch FreeFlow_Euler/NS/RANS-SA        */
-/*       the same as MS_2 in [2] and in branch FreeFlow_RANS-SA                 */
+/*                                                                              */
+/* MS-1: EULER Verification case subsonic                                       */
+/*     : the same as MS-1 in [1] and in branch FreeFlow_Euler/NS/RANS-SA        */
+/*                                                                              */
+/* MS-2: EULER Verification case supersonic on curved domain                    */
+/*       the same as MS-2 in [1] and in branch FreeFlow_Euler/NS/RANS-SA        */
+/*                                                                              */
+/* MS-3: NS Verification case                                                   */
+/*       the same as MS-3 in [1] and in branch FreeFlow_Euler/NS/RANS-SA        */
+/*                                                                              */
+/* MS-4: RANS-SA Verification case, original SA model                           */
+/*       the same as MS-4 in [1] and in branch FreeFlow_Euler/NS/RANS-SA        */
+/*       the same as MS-1 in [2] and in branch FreeFlow_RANS-SA                 */
+/*                                                                              */
+/* MS-5: RANS-SA Verification case, negative SA model                           */
+/*       the same as MS-5 in [1] and in branch FreeFlow_Euler/NS/RANS-SA        */
+/*       the same as MS-2 in [2] and in branch FreeFlow_RANS-SA                 */
 /*                                                                              */
 extern double MS_1(int qnt_type, int qnt_id, double x, double y);
 extern double MS_2(int qnt_type, int qnt_id, double x, double y);
@@ -44,10 +54,18 @@ extern double MS_5(int qnt_type, int qnt_id, double x, double y);
 /* [3] https://arxiv.org/abs/1801.00021                                         */
 /*                                                                              */
 /* SOURCE: https://github.com/fanav/Verification_MMS_Tools                      */
-/* MS_6: the same as MS_1 in [3] and in branch WallFlow_Euler/NS/RANS-SA        */
-/* MS_7: the same as MS_2 in [3] and in branch WallFlow_Euler/NS/RANS-SA        */
-/* MS_8: the same as MS_3 in [3] and in branch WallFlow_Euler/NS/RANS-SA        */
-/* MS_9: the same as MS_4 in [3] and in branch WallFlow_Euler/NS/RANS-SA        */
+/*                                                                              */
+/* MS-6: EULER Verification case, slip wall-bounded curved domain               */
+/*       the same as MS-1 in [3] and in branch WallFlow_Euler/NS/RANS-SA        */
+/*                                                                              */
+/* MS-7: Navier-Stokes Verification case, no-slip wall-bounded curved domain    */
+/*       the same as MS-2 in [3] and in branch WallFlow_Euler/NS/RANS-SA        */
+/*                                                                              */
+/* MS-8: Realistic RANS-SA Verification case, Eça et al. (2007)                 */
+/*       the same as MS-3 in [3] and in branch WallFlow_Euler/NS/RANS-SA        */
+/*                                                                              */
+/* MS-9: Realistic RANS-SA Verification case, Oliver et al. (2012)              */
+/*       the same as MS-4 in [3] and in branch WallFlow_Euler/NS/RANS-SA        */
 /*                                                                              */
 extern double MS_6(int qnt_type, int qnt_id, double x, double y);
 extern double MS_7(int qnt_type, int qnt_id, double x, double y);
