@@ -258,7 +258,7 @@ double MS_qnt_2D(int MS_no, int qnt_type, int qnt_id, double x, double y)
 /**/case 8:  qnt = MS_8(qnt_type,qnt_id,x,y); break;                          /**/
 /*                                                                              */
 /*    MS-9:  Realistic RANS-SA Verification case, Oliver et al. (2012)          */
-/**/case 9:  qnt = MS_9(qnt_type,qnt_id,x,y); break;                            */
+/**/case 9:  qnt = MS_9(qnt_type,qnt_id,x,y); break;                          /**/
 /*                                                                              */
 /********************************************************************************/
 
