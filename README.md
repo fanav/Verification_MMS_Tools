@@ -8,7 +8,7 @@ The references describing the test cases are:
 
 - Free flows
 
-    [arXiv:1712.09478] (arXiv_1712.09478.pdf) (https://arxiv.org/abs/1712.09478)
+    [arXiv:1712.09478](arXiv_1712.09478.pdf) (https://arxiv.org/abs/1712.09478)
 
     "A comprehensive high-order solver verification methodology for free fluid flows"
 
@@ -19,7 +19,7 @@ The references describing the test cases are:
 
 - Wall-bounded flows
 
-    [arXiv:1801.00021] (arXiv_1801.00021.pdf) (https://arxiv.org/abs/1801.00021)
+    [arXiv:1801.00021](arXiv_1801.00021.pdf) (https://arxiv.org/abs/1801.00021)
 
     "On the verification of CFD solvers of all orders of accuracy on curved wall-bounded domains and for realistic RANS flows"
 
