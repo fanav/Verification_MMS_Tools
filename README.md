@@ -15,7 +15,7 @@ McGill University
 ### Description of cases:
 
 - MS-1: Free turbulent flow with RANS and the *original* Spalart-Allmaras turbulence model¹ on Cartesian domain / The same as MS-4 in the "FreeFlow_Euler/NS/RANS-SA" branch
-- MS-2: Free turbulent flow with RANS and the *modified* Spalart-Allmaras turbulence model¹ on Cartesian domain / The same as MS-5 in the "FreeFlow_Euler/NS/RANS-SA" branch
+- MS-2: Free turbulent flow with RANS and the *negative* Spalart-Allmaras turbulence model¹ on Cartesian domain / The same as MS-5 in the "FreeFlow_Euler/NS/RANS-SA" branch
 
 ¹Allmaras, S. R., Johnson, F. T., Spalart, P. R., "Modifications and Clarifications for the Implementation of the Spalart-Allmaras Turbulence Model". ICCFD7-1902.
 
