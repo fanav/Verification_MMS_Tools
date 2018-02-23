@@ -62,11 +62,11 @@ The references describing the test cases are:
         the same as MS-4 in [3] and in branch WallFlow_Euler/NS/RANS-SA       
 
 ### References:
-[1] Navah, F., Nadarajah, S. "A comprehensive high-order solver verification methodology for free fluid flows", arXiv:1712.09478.
+[1] Navah, F., Nadarajah, S. "A comprehensive high-order solver verification methodology for free fluid flows", [arXiv:1712.09478](arXiv_1712.09478.pdf).
 
-[2] Navah, F., Nadarajah, S. "Motivations and methods of verification for high-order RANS solvers and solutions", AIAA2017-3290.
+[2] Navah, F., Nadarajah, S. "Motivations and methods of verification for high-order RANS solvers and solutions", [AIAA2017-3290](AIAA2017-3290.pdf).
 
-[3] Navah, F., Nadarajah, S. "On the verification of CFD solvers of all orders of accuracy on curved wall-bounded domains and for realistic RANS flows", arXiv:1801.00021
+[3] Navah, F., Nadarajah, S. "On the verification of CFD solvers of all orders of accuracy on curved wall-bounded domains and for realistic RANS flows", [arXiv:1801.00021](arXiv_1801.00021.pdf).
 
 [4] Allmaras, S. R., Johnson, F. T., Spalart, P. R., "Modifications and Clarifications for the Implementation of the Spalart-Allmaras Turbulence Model", ICCFD7-1902.
 
