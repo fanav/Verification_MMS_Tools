@@ -21,7 +21,7 @@ const double piMS = 3.1415926535897932384626433832795;
 /* SOURCE: https://github.com/fanav/Verification_MMS_Tools                      */
 /*                                                                              */
 /* MS-1: EULER Verification case subsonic                                       */
-/*     : the same as MS-1 in [1] and in branch FreeFlow_Euler/NS/RANS-SA        */
+/*       the same as MS-1 in [1] and in branch FreeFlow_Euler/NS/RANS-SA        */
 /*                                                                              */
 /* MS-2: EULER Verification case supersonic on curved domain                    */
 /*       the same as MS-2 in [1] and in branch FreeFlow_Euler/NS/RANS-SA        */
@@ -2405,7 +2405,7 @@ double MS_4(int qnt_type, int qnt_id, double x, double y)
           
         // qnt_type=1: dQdx
         case 1:            
-	  dPdx = -piMS*a_px*p_x*sin(piMS*a_px*x/L)/L - piMS*a_pxy*p_xy*sin(piMS*a_pxy*x/L)*cos(piMS*a_pxy*y/L)/L;
+	      dPdx = -piMS*a_px*p_x*sin(piMS*a_px*x/L)/L - piMS*a_pxy*p_xy*sin(piMS*a_pxy*x/L)*cos(piMS*a_pxy*y/L)/L;
           qnt  = dPdx;
           break;          
 
@@ -3167,7 +3167,7 @@ double MS_5(int qnt_type, int qnt_id, double x, double y)
           
         // qnt_type=1: dQdx
         case 1:            
-	  dPdx = -piMS*a_px*p_x*sin(piMS*a_px*x/L)/L - piMS*a_pxy*p_xy*sin(piMS*a_pxy*x/L)*cos(piMS*a_pxy*y/L)/L;
+	      dPdx = -piMS*a_px*p_x*sin(piMS*a_px*x/L)/L - piMS*a_pxy*p_xy*sin(piMS*a_pxy*x/L)*cos(piMS*a_pxy*y/L)/L;
           qnt  = dPdx;
           break;          
 
@@ -4975,7 +4975,7 @@ double MS_8(int qnt_type, int qnt_id, double x, double y)
           
         // qnt_type=1: dQdx
         case 1:            
-	  dPdx = 0.5*(-2*x + 2)*log(4*pow(y, 3) - 3*pow(y, 2) + 1.25)/(-pow(x, 2) + 2*x + 0.25); 
+	      dPdx = 0.5*(-2*x + 2)*log(4*pow(y, 3) - 3*pow(y, 2) + 1.25)/(-pow(x, 2) + 2*x + 0.25); 
           qnt  = dPdx;
           break;          
 
@@ -5838,7 +5838,7 @@ double MS_9(int qnt_type, int qnt_id, double x, double y)
           
         // qnt_type=1: dQdx
         case 1:            
-	  dPdx = 0.;
+	      dPdx = 0.;
           qnt  = dPdx;
           break;          
 

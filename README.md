@@ -3,7 +3,19 @@ This branch provides tools for the verification of Euler/NS/RANS-SA solvers via 
 
 ---------------------------------------------
 #### -> Please Cite us upon utilization <-
-The reference describing the test cases is: [arXiv:1801.00021](arXiv_1801.00021.pdf) (https://arxiv.org/abs/1801.00021)
+
+The references describing the test cases are: 
+
+[arXiv:1712.09478] (arXiv_1712.09478.pdf) (https://arxiv.org/abs/1712.09478)
+
+"A comprehensive high-order solver verification methodology for free fluid flows"
+
+Farshad Navah (farshad.navah@mail.mcgill.ca) ; Siva Nadarajah 
+
+McGill University
+
+
+[arXiv:1801.00021] (arXiv_1801.00021.pdf) (https://arxiv.org/abs/1801.00021)
 
 "On the verification of CFD solvers of all orders of accuracy on curved wall-bounded domains and for realistic RANS flows"
 
@@ -14,16 +26,49 @@ McGill University
 ---------------------------------------------
 ### Description of cases:
 
-- MS-1: Wall-bounded inviscid flow on curved domain 
-- MS-2: Wall-bounded laminar flow on curved domain 
-- MS-3: Realistic boundary layer RANS-SA [1] flow on Cartesian domain, Eça et al. (2007) [2]
-- MS-4: Realistic boundary layer RANS-SA [1] flow on Cartesian domain, Oliver et al. (2012) [3]
+#### FREE FLOWS
+- MS-1: EULER Verification case subsonic                                       
+        the same as MS-1 in [1] and in branch FreeFlow_Euler/NS/RANS-SA       
+                                                                             
+- MS-2: EULER Verification case supersonic on curved domain                   
+        the same as MS-2 in [1] and in branch FreeFlow_Euler/NS/RANS-SA       
+                                                                             
+- MS-3: NS Verification case                                                  
+        the same as MS-3 in [1] and in branch FreeFlow_Euler/NS/RANS-SA       
+                                                                             
+- MS-4: RANS-SA Verification case, original SA model [4]                         
+        the same as MS-4 in [1] and in branch FreeFlow_Euler/NS/RANS-SA       
+        the same as MS-1 in [2] and in branch FreeFlow_RANS-SA                
+                                                                             
+- MS-5: RANS-SA Verification case, negative SA model [4]                         
+        the same as MS-5 in [1] and in branch FreeFlow_Euler/NS/RANS-SA       
+        the same as MS-2 in [2] and in branch FreeFlow_RANS-SA       
 
-[1] Allmaras, S. R., Johnson, F. T., Spalart, P. R., "Modifications and Clarifications for the Implementation of the Spalart-Allmaras Turbulence Model", ICCFD7-1902.
+#### WALL-BOUNDED FLOWS        
+- MS-6: EULER Verification case, slip wall-bounded curved domain              
+        the same as MS-1 in [3] and in branch WallFlow_Euler/NS/RANS-SA       
+                                                                             
+- MS-7: Navier-Stokes Verification case, no-slip wall-bounded curved domain   
+        the same as MS-2 in [3] and in branch WallFlow_Euler/NS/RANS-SA       
+                                                                             
+- MS-8: Realistic RANS-SA Verification case, Eça et al. (2007) [5]                
+        the same as MS-3 in [3] and in branch WallFlow_Euler/NS/RANS-SA       
+                                                                             
+- MS-9: Realistic RANS-SA Verification case, Oliver et al. (2012) [6]             
+        the same as MS-4 in [3] and in branch WallFlow_Euler/NS/RANS-SA       
 
-[2] Eça, L. , Hoekstra, M., Hay, A., Pelletier, D., "Verification of RANS solvers with manufactured solutions", doi:10.1007/s00366-007-0067-9.
+References:
+[1] Navah, F., Nadarajah, S. "A comprehensive high-order solver verification methodology for free fluid flows", arXiv:1712.09478.
 
-[3] Oliver, T., Estacio-Hiroms, K., Malaya, N., Carey, G., "Manufactured Solutions for the Favre-Averaged Navier-Stokes Equations with Eddy-Viscosity Turbulence Models", doi:10.2514/6.2012-80, AIAA 2012-0080.
+[2] Navah, F., Nadarajah, S. "Motivations and methods of verification for high-order RANS solvers and solutions", AIAA2017-3290.
+
+[3] Navah, F., Nadarajah, S. "On the verification of CFD solvers of all orders of accuracy on curved wall-bounded domains and for realistic RANS flows", arXiv:1801.00021
+
+[4] Allmaras, S. R., Johnson, F. T., Spalart, P. R., "Modifications and Clarifications for the Implementation of the Spalart-Allmaras Turbulence Model", ICCFD7-1902.
+
+[5] Eça, L. , Hoekstra, M., Hay, A., Pelletier, D., "Verification of RANS solvers with manufactured solutions", doi:10.1007/s00366-007-0067-9.
+
+[6] Oliver, T., Estacio-Hiroms, K., Malaya, N., Carey, G., "Manufactured Solutions for the Favre-Averaged Navier-Stokes Equations with Eddy-Viscosity Turbulence Models", doi:10.2514/6.2012-80, AIAA 2012-0080.
 
 ### Description of files:
 
