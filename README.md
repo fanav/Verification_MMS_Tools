@@ -7,23 +7,25 @@ This branch provides tools for the verification of Euler/NS/RANS-SA solvers via 
 The references describing the test cases are: 
 
 - Free flows
-[arXiv:1712.09478] (arXiv_1712.09478.pdf) (https://arxiv.org/abs/1712.09478)
 
-"A comprehensive high-order solver verification methodology for free fluid flows"
+    [arXiv:1712.09478] (arXiv_1712.09478.pdf) (https://arxiv.org/abs/1712.09478)
 
-Farshad Navah (farshad.navah@mail.mcgill.ca) ; Siva Nadarajah 
+    "A comprehensive high-order solver verification methodology for free fluid flows"
 
-McGill University
+    Farshad Navah (farshad.navah@mail.mcgill.ca) ; Siva Nadarajah 
+
+    McGill University
 
 
 - Wall-bounded flows
-[arXiv:1801.00021] (arXiv_1801.00021.pdf) (https://arxiv.org/abs/1801.00021)
 
-"On the verification of CFD solvers of all orders of accuracy on curved wall-bounded domains and for realistic RANS flows"
+    [arXiv:1801.00021] (arXiv_1801.00021.pdf) (https://arxiv.org/abs/1801.00021)
 
-Farshad Navah (farshad.navah@mail.mcgill.ca) ; Siva Nadarajah 
+    "On the verification of CFD solvers of all orders of accuracy on curved wall-bounded domains and for realistic RANS flows"
 
-McGill University
+    Farshad Navah (farshad.navah@mail.mcgill.ca) ; Siva Nadarajah 
+
+    McGill University
 
 ---------------------------------------------
 ### Description of cases:
