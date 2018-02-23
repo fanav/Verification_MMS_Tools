@@ -6,7 +6,7 @@ This branch provides tools for the verification of Euler/NS/RANS-SA solvers via 
 
 The references describing the test cases are: 
 
-- Free flows
+- **Free flows**
 
     [arXiv:1712.09478](arXiv_1712.09478.pdf) (https://arxiv.org/abs/1712.09478)
 
@@ -17,7 +17,7 @@ The references describing the test cases are:
     McGill University
 
 
-- Wall-bounded flows
+- **Wall-bounded flows**
 
     [arXiv:1801.00021](arXiv_1801.00021.pdf) (https://arxiv.org/abs/1801.00021)
 
@@ -37,7 +37,7 @@ The references describing the test cases are:
 - MS-2: EULER Verification case supersonic on curved domain                   
         the same as MS-2 in [1] and in branch FreeFlow_Euler/NS/RANS-SA       
                                                                              
-- MS-3: NS Verification case                                                  
+- MS-3:  Navier-Stokes Verification case
         the same as MS-3 in [1] and in branch FreeFlow_Euler/NS/RANS-SA       
                                                                              
 - MS-4: RANS-SA Verification case, original SA model [4]                         
