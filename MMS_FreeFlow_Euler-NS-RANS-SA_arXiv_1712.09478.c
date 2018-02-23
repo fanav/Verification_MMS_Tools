@@ -175,7 +175,7 @@ double MS_qnt_2D(int MS_no, int qnt_type, int qnt_id, double x, double y)
     // MS-4: RANS-SA Verification case, original SA model
     case 4:  qnt = MS_4(qnt_type,qnt_id,x,y); break;        
 
-    // MS-5: RANS-SA Verification case, modified SA model
+    // MS-5: RANS-SA Verification case, negative SA model
     case 5:  qnt = MS_5(qnt_type,qnt_id,x,y); break;  
     
     // if nothing is chosen, exit the program.
@@ -2392,7 +2392,7 @@ double MS_5(int qnt_type, int qnt_id, double x, double y)
 
       Manufactured solution forcing functions and quantities      
       
-    // MS-5: RANS-SA Verification case, modified SA model
+    // MS-5: RANS-SA Verification case, negative SA model
       
 */  
   const double rho_0    =  1.0;

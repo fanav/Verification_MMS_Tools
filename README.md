@@ -18,7 +18,7 @@ McGill University
 - MS-2: Free supersonic inviscid flow on Curved domain
 - MS-3: Free laminar flow on Cartesian domain
 - MS-4: Free turbulent flow with RANS and the *original* Spalart-Allmaras turbulence model¹ on Cartesian domain / The same as MS-1 in the "FreeFlow_RANS-SA" branch
-- MS-5: Free turbulent flow with RANS and the *modified* Spalart-Allmaras turbulence model¹ on Cartesian domain / The same as MS-2 in the "FreeFlow_RANS-SA" branch
+- MS-5: Free turbulent flow with RANS and the *negative* Spalart-Allmaras turbulence model¹ on Cartesian domain / The same as MS-2 in the "FreeFlow_RANS-SA" branch
 
 ¹Allmaras, S. R., Johnson, F. T., Spalart, P. R., "Modifications and Clarifications for the Implementation of the Spalart-Allmaras Turbulence Model". ICCFD7-1902.
 
