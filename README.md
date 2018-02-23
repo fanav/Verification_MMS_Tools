@@ -1,4 +1,4 @@
-## Verification MMS Tools: WallFlow_Euler/NS/RANS-SA
+## Code Verification Tools via the Method of Manufactured Solutions
 This branch provides tools for the verification of Euler/NS/RANS-SA solvers via the method of manufactured solutions (MMS).
 
 ---------------------------------------------
@@ -6,6 +6,7 @@ This branch provides tools for the verification of Euler/NS/RANS-SA solvers via 
 
 The references describing the test cases are: 
 
+- Free flows
 [arXiv:1712.09478] (arXiv_1712.09478.pdf) (https://arxiv.org/abs/1712.09478)
 
 "A comprehensive high-order solver verification methodology for free fluid flows"
@@ -15,6 +16,7 @@ Farshad Navah (farshad.navah@mail.mcgill.ca) ; Siva Nadarajah
 McGill University
 
 
+- Wall-bounded flows
 [arXiv:1801.00021] (arXiv_1801.00021.pdf) (https://arxiv.org/abs/1801.00021)
 
 "On the verification of CFD solvers of all orders of accuracy on curved wall-bounded domains and for realistic RANS flows"
@@ -57,7 +59,7 @@ McGill University
 - MS-9: Realistic RANS-SA Verification case, Oliver et al. (2012) [6]             
         the same as MS-4 in [3] and in branch WallFlow_Euler/NS/RANS-SA       
 
-References:
+### References:
 [1] Navah, F., Nadarajah, S. "A comprehensive high-order solver verification methodology for free fluid flows", arXiv:1712.09478.
 
 [2] Navah, F., Nadarajah, S. "Motivations and methods of verification for high-order RANS solvers and solutions", AIAA2017-3290.
@@ -70,6 +72,7 @@ References:
 
 [6] Oliver, T., Estacio-Hiroms, K., Malaya, N., Carey, G., "Manufactured Solutions for the Favre-Averaged Navier-Stokes Equations with Eddy-Viscosity Turbulence Models", doi:10.2514/6.2012-80, AIAA 2012-0080.
 
+---------------------------------------------
 ### Description of files:
 
 - IPython3 notebook: allows to generate the manufactured solution fields as well as the forcing functions for each of the cases. For the above MSs, the resulting expressions are already injected in the .c file.
