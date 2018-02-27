@@ -37,8 +37,8 @@ The references describing the test cases are:
 - MS-2: EULER Verification case supersonic on curved domain                   
         the same as MS-2 in [1] and in branch FreeFlow_Euler/NS/RANS-SA       
                                                                              
-- MS-3:  Navier-Stokes Verification case
-        the same as MS-3 in [1] and in branch FreeFlow_Euler/NS/RANS-SA       
+- MS-3:  Navier-Stokes Verification case                    
+         the same as MS-3 in [1] and in branch FreeFlow_Euler/NS/RANS-SA       
                                                                              
 - MS-4: RANS-SA Verification case, original SA model [4]                         
         the same as MS-4 in [1] and in branch FreeFlow_Euler/NS/RANS-SA       
