@@ -3,7 +3,7 @@ This branch provides tools for the verification of Euler/NS/RANS-SA solvers via 
 
 ---------------------------------------------
 #### -> Please Cite us upon utilization <-
-The reference describing the test cases is: [arXiv:1712.09478](arXiv_1712.09478.pdf) (https://arxiv.org/abs/1712.09478)     
+The reference describing the test cases is: [https://doi.org/10.1016/j.ast.2018.07.006](https://doi.org/10.1016/j.ast.2018.07.006)     
 
 "A comprehensive high-order solver verification methodology for free fluid flows"
 
